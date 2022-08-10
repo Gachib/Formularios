@@ -175,6 +175,11 @@ footer p#copyright {
 main{
     display: flex;
     justify-content: center;
+    background-color: var(--color-grisClaro);
+}
+
+main#inicio {
+    background-color: white;
 }
 
 main form{
@@ -192,6 +197,7 @@ main form input{
     margin-bottom: 20px;
     border: none;
     padding: 10px;
+    outline: none;
 }
 
 main form label {
@@ -271,8 +277,8 @@ main section div article div i{
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
-    right: 30px;
-    top: -35px;
+    right: 15px;
+    top: -20px;
 }
 
 main section div article div.precio-y-descuento{
@@ -291,8 +297,9 @@ main section div article p.descuento {
 
 main section div article p.nombre-producto {
     color: var(--color-grisOscuro);
-    margin-left: 20px;
+    padding-left: 20px;
     padding-bottom: 15px;
+    background-color: white;
 }
 
   /*++++++++++*/
@@ -369,9 +376,7 @@ header section#burger-flex{
  /* MAIN */
 /*++++++*/
 
-    main {
-        background-color: var(--color-grisClaro);
-    }
+
 
     main section h3{
         margin: 0 25px;
@@ -393,6 +398,7 @@ header section#burger-flex{
         margin: 0;
         justify-content: space-evenly;
         justify-content: flex-start;
+        background-color: white;
     }
 
     main form{
