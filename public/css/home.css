@@ -177,6 +177,71 @@ main{
     justify-content: center;
 }
 
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--color-grisClaro);
+}
+
+main form input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+}
+
+main form label {
+    margin-bottom: 10px;
+}
+
+main form input.check{
+    width: initial;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: initial;
+}
+
+main form div#intereses {
+    margin-bottom: 20px;
+}
+
+main form div#intereses div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+main form select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+main form input#imagen{
+    border: var(--color-grisOscuro);
+    background-color: white;
+}
+
+main form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: var(--color-celeste);
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
 main section h3 {
     padding-top: 20px;
     margin-bottom: 20px;
@@ -304,6 +369,10 @@ header section#burger-flex{
  /* MAIN */
 /*++++++*/
 
+    main {
+        background-color: var(--color-grisClaro);
+    }
+
     main section h3{
         margin: 0 25px;
     }
@@ -326,6 +395,10 @@ header section#burger-flex{
         justify-content: flex-start;
     }
 
+    main form{
+        width: 40%;
+
+    }
 
 
   /*++++++++++++*/
